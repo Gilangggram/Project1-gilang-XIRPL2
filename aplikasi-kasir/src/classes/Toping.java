@@ -7,10 +7,13 @@ package classes;
 
 /**
  *
- * @author Gilang ramadhan
+ * @author GILANG
  */
-public class Kuah {
+public class Toping extends Menu{
     
-    public Kuah (String nama_kuah){ }
-    
+    public Toping (String nama_toping, double harga){
+        setNama_menu (nama_toping);
+        setHarga (harga);
+        setKetegori ("Toping");
+    }
 }

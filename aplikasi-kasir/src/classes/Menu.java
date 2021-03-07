@@ -7,11 +7,11 @@ package classes;
 
 /**
  *
- * @author Gilang ramadhan
+ * @author GILANG
  */
 public class Menu {
     private String nama_menu;
-    private double harga;
+    double harga;
     private String kategori;
     
     public String getNama_menu (){ 
@@ -39,3 +39,6 @@ public class Menu {
     }
     
 }
+
+    
+

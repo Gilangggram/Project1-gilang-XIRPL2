@@ -7,10 +7,14 @@ package classes;
 
 /**
  *
- * @author Gilang ramadhan
+ * @author GILANG
  */
-public class Minuman {
+public class Kuah extends Menu {
     
-    public Minuman (String nama_minuman){ }
-    
+    public Kuah (String nama_kuah){
+        setNama_menu(nama_kuah);
+        setHarga(0);
+        setKetegori("Kuah");
+    }    
 }
+

@@ -7,7 +7,7 @@ package classes;
 
 /**
  *
- * @author Gilang ramadhan
+ * @author GILANG
  */
 public class Pesanan {
     
@@ -22,4 +22,3 @@ public class Pesanan {
     public String getKeterangan () { return""; }
     
 }
-

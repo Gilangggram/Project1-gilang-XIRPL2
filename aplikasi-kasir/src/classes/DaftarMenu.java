@@ -7,11 +7,8 @@ package classes;
 
 /**
  *
- * @author Gilang ramadhan
+ * @author GILANG
  */
-
-
-
 import java.util.ArrayList;
 
 public class DaftarMenu {
