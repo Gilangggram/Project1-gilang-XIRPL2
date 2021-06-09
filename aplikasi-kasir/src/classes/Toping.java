@@ -9,11 +9,10 @@ package classes;
  *
  * @author GILANG
  */
-public class Toping extends Menu{
-    
-    public Toping (String nama_toping, double harga){
-        setNama_menu (nama_toping);
-        setHarga (harga);
-        setKetegori ("Toping");
+public class Toping extends Menu {
+    public Toping(String namaToping, double harga) {
+      setNamaMenu(namaToping);
+      setHarga(harga);
+      setKategori("Toping");
     }
 }

@@ -7,14 +7,12 @@ package classes;
 
 /**
  *
- * @author GILANG
+ * @author Gilang
  */
 public class Kuah extends Menu {
-    
-    public Kuah (String nama_kuah){
-        setNama_menu(nama_kuah);
-        setHarga(0);
-        setKetegori("Kuah");
-    }    
+    public Kuah(String namaKuah) {
+      setNamaMenu(namaKuah);
+      setHarga(0);
+      setKategori("Kuah");
+    }
 }
-
