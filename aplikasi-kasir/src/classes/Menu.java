@@ -7,38 +7,36 @@ package classes;
 
 /**
  *
- * @author GILANG
+ * @author WIN 10
  */
 public class Menu {
-    private String nama_menu;
-    double harga;
+    private String namaMenu;
+    private double harga;
     private String kategori;
     
-    public String getNama_menu (){ 
-        return nama_menu;
+    public String getNamaMenu () {
+        return namaMenu;
     }
     
-    public void setNama_menu (String nama_menu) {
-        this.nama_menu = nama_menu;
+    public void setNamaMenu(String namaMenu) {
+        this.namaMenu = namaMenu;
     }
     
-    public double getHarga() { 
-        return harga; 
+    public double getHarga () {
+        return harga;
     }
     
-    public void setHarga (double harga) {
-       this.harga = harga;
+    void setHarga (double harga) {
+        this.harga = harga;
     }
     
     public String getKategori () {
-        return  kategori; 
+        return kategori;
     }
     
-    public void setKetegori (String kategori){
+    public void setKategori (String kategori) {
         this.kategori = kategori;
     }
-    
 }
-
     
 
