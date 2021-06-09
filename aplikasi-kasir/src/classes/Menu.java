@@ -5,10 +5,6 @@
  */
 package classes;
 
-/**
- *
- * @author WIN 10
- */
 public class Menu {
     private String namaMenu;
     private double harga;
